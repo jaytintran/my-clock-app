@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body {
+	background-color: #000;
+}
+.clock {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	background: #DDD;
+	border: 3px solid #AAA;
+	border-radius: 100%;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+}
+.twelve {
+	position: absolute;
+	width: 3px;
+	height: 15px;
+	background: #111;
+	margin: 0 auto;
+	left: 0; top: 0; right: 0;
+}
+.three {
+	position: absolute;
+	width: 15px;
+	height: 3px;
+	background: #111;
+	margin: auto 0;
+	right: 0; bottom: 0; top: 0;
+	
+
+}
+.six {
+	position: absolute;
+	width: 3px;
+	height: 15px;
+	background: #111;
+	margin: 0 auto;
+	right: 0; left: 0; bottom: 0;
+}
+.nine {
+	position: absolute;
+	width: 15px;
+	height: 3px;
+	background: #111;
+	margin: auto 0;
+	top: 0; bottom: 0;left: 0;
+}
+.center {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background: #111;
+	border-radius: 100%;
+	margin: auto;
+	left: 0; right: 0; top: 0; bottom: 0;
+
+}
+#seconds {
+	position: absolute;
+	height: 160px;
+	width: 2px;
+	background: #ff4136;
+	margin: auto;
+	left: 0; right: 0; bottom: 160px; top: 0;
+	-webkit-transform-origin: bottom;
+}
+#hours {
+	position: absolute;
+	height: 80px;
+	width: 6px;
+	background: #000;
+	margin: auto;
+	left: 0; right: 0; top: 0; bottom: 80px;
+	-webkit-transform-origin: bottom;
+}
+#minutes {
+	position: absolute;
+	height: 200px;
+	width: 2px;
+	background: #000;
+	margin: auto;
+	left: 0; right: 0; top: 0; bottom: 200px;
+	-webkit-transform-origin: bottom;
+}
